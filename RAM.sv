@@ -98,7 +98,6 @@ module RAM_tb;
         #10 req = 1;rw = 1;addr = 6'b000010;
         #10 addr = 6'b100100;
 
-        // End simulation
         #20 $finish;
     end
 
